@@ -17,7 +17,7 @@ from sklearn.cluster import KMeans, AgglomerativeClustering
 from scipy.cluster.hierarchy import dendrogram, linkage
 
 # Load dataset
-df = pd.read_csv("Top Indian Places to Visit.csv")
+df = pd.read_csv("data.csv")
 
 # Display basic info
 print(df.info())
